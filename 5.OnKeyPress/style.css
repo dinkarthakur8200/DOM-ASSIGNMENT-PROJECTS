@@ -1,0 +1,27 @@
+*{
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #ad6565;
+    height: 430px;
+}
+div
+{
+    align-items: center;
+    justify-content: center;
+    margin: 330px 600px;
+}
+#display
+ {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+  }  
+#input-box
+ {
+    border: 4px solid;
+    border-color: rgb(0, 0, 0);
+    font-size: 25px;
+  }

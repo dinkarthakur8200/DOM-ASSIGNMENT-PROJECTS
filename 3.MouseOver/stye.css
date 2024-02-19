@@ -1,0 +1,38 @@
+*
+{
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+}
+
+               /* styling the main and Body Section ... */
+
+body
+{
+    background: linear-gradient(rgb(184, 69, 136),rgb(41, 227, 240));
+    height: 440px;
+}
+              /* Styling the shape of paragraph and positioning it... */
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 300px 200px;
+}
+p
+{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid;
+    border-color: rgb(184, 87, 87);
+    height: 50px;
+    width: 170px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+p:hover
+{
+    cursor: pointer;
+}

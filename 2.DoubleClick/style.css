@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+}
+
+/* styling the main and Body Section ... */
+body{
+    /* background-color: #5f3535;  */
+    background: linear-gradient(rgb(184, 69, 136),rgb(41, 227, 240));
+    height: 363px;
+}
+
+#section{
+    display: flex;
+    flex-direction: row;
+    margin: 400px 700px;
+    align-items: center;
+    justify-content: center;
+}
+#boxbtn{
+    height: 72px;
+    width: 400px;
+    font-size: 30px;
+    border-radius: 10%;
+}
+#boxbtn:hover{
+    background-color: #1a1919;
+    color: aqua;
+    height: 72px;
+    width: 400px;
+    font-size: 20px;
+    border-radius: 10%;
+    cursor: pointer;
+    font-weight: 900;
+}

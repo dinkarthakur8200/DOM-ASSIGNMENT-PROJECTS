@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+}
+
+/* styling the main and Body Section ... */
+body{
+    /* background-color: #5f3535;  */
+    background: linear-gradient(rgb(76, 77, 76),rgb(240, 121, 41));
+    height: 363px;
+}
+
+#section{
+    display: flex;
+    flex-direction: row;
+    margin: 400px 700px;
+    align-items: center;
+    justify-content: center;
+}
+#button{
+    background-color: #e42e2e;
+    height: 30px;
+    width: 100px;
+    font: 100;
+    height: 60px;
+    width: 300px;
+    font-size: 30px;
+    border-radius: 20%;
+}
